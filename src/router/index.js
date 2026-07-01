@@ -17,10 +17,16 @@ const routes = [
         component: () => import('../components/Register.vue')
     },
     {
+        path: '/personal',
+        name: 'Personal',
+        component: () => import('../components/Personal.vue')
+    },
+    {
         path: '/introduction',
         name: 'Introduction',
         component: () => import('../components/Introduction.vue')
     },
+    
     {
         path: '/news',
         name: 'News',
