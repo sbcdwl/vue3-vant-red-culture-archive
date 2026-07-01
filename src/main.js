@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import './index.css'
+// import './index.css'
 
 //vant组件的引入
 import vant from 'vant';
