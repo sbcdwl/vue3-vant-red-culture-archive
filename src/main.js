@@ -3,15 +3,19 @@ import App from './App.vue'
 // import './index.css'
 
 //vant组件的引入
-import vant from 'vant';
-import '../node_modules/vant/lib/index.css';
+import vant from 'vant'
+import '../node_modules/vant/lib/index.css'
 
 //路由的引入
 import router from './router/index.js'
-import { initCollectionData } from './data/Collection.js';
 
-//初始化藏品数据
+//数据引入
+import { initCollectionData } from './data/Collection.js'
+import { initNewsData } from './data/News.js'
+
+//初始化数据
 initCollectionData()
+initNewsData()
 
 const app = createApp(App)
 app.use(vant)
