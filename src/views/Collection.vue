@@ -15,7 +15,7 @@
 
     <div>
         <van-grid :column-num="3" class="collection-grid">
-            <van-grid-item v-for="item in collectionsInfo" :key="item.id" class="grid-item">
+            <van-grid-item v-for="item in collectionsInfo" :key="item.id" class="grid-item" @click="goDetail(item.id)">
                 <div class="grid-content">
                     <img :src="item.image" :alt="item.name" />
                     <span class="grid-name">{{ item.name }}</span>
@@ -29,7 +29,17 @@
 
 <script setup>
 import { ref } from 'vue'
+
+// 引入路由
+import { useRouter } from 'vue-router'
+const router = useRouter()
+
 const collectionsInfo = ref(JSON.parse(localStorage.getItem('collections')) || [])
+
+//往params里传
+function goDetail(id) {
+    router.push({ name: 'CollectionDetail', params: { id } })
+}
 </script>
 
 <style scoped>

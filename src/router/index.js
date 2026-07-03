@@ -1,4 +1,4 @@
-import { createRouter,createWebHistory } from "vue-router";
+import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
     {
@@ -10,6 +10,11 @@ const routes = [
         path: '/collection',
         name: 'Collection',
         component: () => import('../views/Collection.vue')
+    },
+    {
+        path: '/collection/:id',
+        name: 'CollectionDetail',
+        component: () => import('../views/CollectionDetail.vue')
     },
     {
         path: '/news',
