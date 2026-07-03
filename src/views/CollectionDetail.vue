@@ -33,7 +33,7 @@ const currentItem = collectionsInfo.value.find(item => item.id === id)  //可以
  * 2、item => item.id === id就是把localstorage里的id和路由传过来的id进行比较，
  * 然后返回相等的那一个作为find函数的参数
  * 3、这样find就能返回id对应的那整一个对象，然后赋值给currentItem就是了
- */
+ */ 
 
 
 </script>
