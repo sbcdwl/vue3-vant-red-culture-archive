@@ -151,7 +151,7 @@ npm i
 ### req:H News模块
 
 - req:H-001 使用localStorage读取News.js数据
-- req:H-002 使用vant card展示新闻内容
+- req:H-002 使用ai生成样式展示新闻内容
 - req:H-003 展示顶部重点新闻图片和内容
 - req:H-004 展示中下部新闻
 
