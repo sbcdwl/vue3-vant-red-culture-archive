@@ -182,3 +182,13 @@ npm i
 - req:L-002 提供登录入口
 - req:L-003 提供注册入口
 - req:L-004 提供我的订单入口
+
+
+# change:
+docs/fix:去掉旅游的售卖模块，哪能在藏品馆挂广告呢
+
+影响模块:req:J TourDetail模块
+
+req:K MyOrder模块
+
+req:L-004 提供我的订单入口
