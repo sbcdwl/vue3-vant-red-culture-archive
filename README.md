@@ -115,7 +115,7 @@ npm i
 
 ### req:B Home模块
 
-- req:B-001 使用vant的card展示档案馆简介模块
+- req:B-001 内嵌“使用vant的card展示档案馆简介模块”
 - req:B-002 展示首页文字内容
 
 ### req:C Login模块
