@@ -25,7 +25,7 @@ npm i
 - Collection.vue:藏品展示模块
 - CollectionDetail.vue:藏品展示详细模块
 - News.vue:新闻咨询模块
-- Tour.vue:旅游地点售卖模块
+- Tour.vue:旅游地点 模块
 - TourDetail.vue:旅游地点细节模块
 - Personal.vue:个人主页模块
 - MyOrder.vue:查看订单模块
@@ -45,7 +45,7 @@ npm i
 ## 所有组件对应功能
 
 ### Tabbar.vue
-- 使用vant的tabbar，实现可跳转首页、藏品展示、新闻咨询、旅游地点售卖、个人主页
+- 使用vant的tabbar，实现可跳转首页、藏品展示、新闻咨询、旅游地点 、个人主页
 
 ### Home.vue
 - 暂时只是用vant的card，内嵌显示档案馆简介模块
@@ -111,7 +111,7 @@ npm i
 ### req:A Tabbar模块
 
 - req:A-001 使用vant的tabbar实现底部导航
-- req:A-002 实现首页、藏品展示、新闻资讯、旅游地点售卖、个人主页跳转
+- req:A-002 实现首页、藏品展示、新闻资讯、旅游地点 、个人主页跳转
 
 ### req:B Home模块
 
