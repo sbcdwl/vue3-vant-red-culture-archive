@@ -4,33 +4,33 @@ const routes = [
     {
         path: '/',
         name: 'Home',
-        component: () => import('../components/Home.vue')
+        component: () => import('../views/Home.vue')
     },
     {
         path: '/login',
         name: 'Login',
-        component: () => import('../components/Login.vue')
+        component: () => import('../views/Login.vue')
     },
     {
         path: '/register',
         name: 'Register',
-        component: () => import('../components/Register.vue')
+        component: () => import('../views/Register.vue')
     },
     {
         path: '/personal',
         name: 'Personal',
-        component: () => import('../components/Personal.vue')
+        component: () => import('../views/Personal.vue')
     },
     {
         path: '/introduction',
         name: 'Introduction',
-        component: () => import('../components/Introduction.vue')
+        component: () => import('../views/Introduction.vue')
     },
     
     {
         path: '/news',
         name: 'News',
-        component: () => import('../components/News.vue')
+        component: () => import('../views/News.vue')
     },
 ]
 
