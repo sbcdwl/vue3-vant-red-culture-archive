@@ -8,5 +8,12 @@ import '../node_modules/vant/lib/index.css';
 
 //路由的引入
 import router from './router/index.js'
+import { initCollectionData } from './data/Collection.js';
 
-createApp(App).use(vant).use(router).mount('#app')
+//初始化藏品数据
+initCollectionData()
+
+const app = createApp(App)
+app.use(vant)
+app.use(router)
+app.mount('#app')
