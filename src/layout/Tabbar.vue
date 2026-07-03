@@ -1,6 +1,6 @@
 <template>
   <div>
-    <van-tabbar v-model="active" route>
+    <van-tabbar v-model="active" route fixed placeholder>
       <van-tabbar-item icon="wap-home-o" to="/">首页</van-tabbar-item>
       <van-tabbar-item icon="photo-o" to="/collection">藏品展示</van-tabbar-item>
       <van-tabbar-item icon="newspaper-o" to="/news">新闻资讯</van-tabbar-item>
